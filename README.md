@@ -349,8 +349,9 @@ npm run build
 ### 🌐 Google OAuth Login Flow
 ![Google OAuth](utils/sc4.png)
 
-### 📊 Dashboard (After Login)
-![Dashboard](utils/sc5.png)
-
 ### 🐙 GitHub OAuth Login Flow
 ![GitHub OAuth](utils/sc6.png)
+
+
+### 📊 Dashboard (After Login)
+![Dashboard](utils/sc5.png)
