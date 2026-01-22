@@ -338,19 +338,19 @@ npm run build
 ## 📸 Application Screenshots
 
 ### 🏠 Home Page
-![Home Page](src/utils/sc1.png)
+![Home Page](utils/sc1.png)
 
 ### 🔐 Login Page
-![Login Page](src/utils/sc2.png)
+![Login Page](utils/sc2.png)
 
 ### 📝 Register Page
-![Register Page](src/utils/sc3.png)
+![Register Page](utils/sc3.png)
 
 ### 🌐 Google OAuth Login Flow
-![Google OAuth](src/utils/sc4.png)
+![Google OAuth](utils/sc4.png)
 
 ### 📊 Dashboard (After Login)
-![Dashboard](src/utils/sc5.png)
+![Dashboard](utils/sc5.png)
 
 ### 🐙 GitHub OAuth Login Flow
-![GitHub OAuth](src/utils/sc6.png)
+![GitHub OAuth](utils/sc6.png)
