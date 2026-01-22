@@ -335,11 +335,22 @@ npm run build
 
 ---
 
-## 📌 Author
+## 📸 Application Screenshots
 
-**Vivek Bhand**  
-Java Full Stack Developer  
+### 🏠 Home Page
+![Home Page](src/utils/sc1.png)
 
----
+### 🔐 Login Page
+![Login Page](src/utils/sc2.png)
 
-⭐ If you like this project, give it a star and feel free to fork it!
+### 📝 Register Page
+![Register Page](src/utils/sc3.png)
+
+### 🌐 Google OAuth Login Flow
+![Google OAuth](src/utils/sc4.png)
+
+### 📊 Dashboard (After Login)
+![Dashboard](src/utils/sc5.png)
+
+### 🐙 GitHub OAuth Login Flow
+![GitHub OAuth](src/utils/sc6.png)
