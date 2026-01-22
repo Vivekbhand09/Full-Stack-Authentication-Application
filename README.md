@@ -94,37 +94,46 @@ This project demonstrates **modern authentication & authorization practices** us
 - OpenAPI / Swagger
 
 ---
-
 ## 📁 Project Structure
 
 ```
-auth-app-boot-react/
-│
+src/
 ├── backend/
-│   ├── src/main/java
-│   │   ├── config/          # Security & OAuth2 config
-│   │   ├── controller/      # REST Controllers
-│   │   ├── entity/          # JPA Entities
-│   │   ├── repository/      # JPA Repositories
-│   │   ├── security/        # JWT & Filters
-│   │   ├── service/         # Business logic
-│   │   └── dto/             # Request/Response DTOs
-│   ├── src/main/resources
-│   │   └── application.yml
-│   └── pom.xml
+│   ├── java/com/substring/auth/app/
+│   │   ├── auth/
+│   │   │   ├── config/        # JWT, OAuth2, Security config
+│   │   │   ├── controllers/   # Auth & OAuth controllers
+│   │   │   ├── entities/      # User, Role, Token entities
+│   │   │   ├── helpers/       # Utility classes
+│   │   │   ├── payload/       # Request / Response models
+│   │   │   ├── repositories/  # JPA repositories
+│   │   │   └── services/      # Business logic
+│   │   │
+│   │   ├── config/            # Global configuration
+│   │   ├── dtos/              # Shared DTOs
+│   │   ├── exceptions/        # Global exception handling
+│   │   └── AuthBackend.java   # Spring Boot main class
+│   │
+│   └── resources/
+│       ├── application.yaml
+│       ├── application-dev.yml
+│       ├── application-qa.yml
+│       └── application-prod.yml
 │
 ├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── services/
-│   │   ├── hooks/
-│   │   └── routes/
-│   ├── vite.config.js
-│   └── package.json
-│
-└── README.md
+│   └── src/
+│       ├── assets/        # Static assets
+│       ├── auth/          # Auth guards & context
+│       ├── components/    # Reusable UI components
+│       ├── config/        # App configuration
+│       ├── models/        # TypeScript types
+│       ├── pages/         # Pages (Login, Register, Dashboard)
+│       ├── services/      # API calls (Axios)
+│       │
+│       ├── App.tsx
+│       └── main.tsx
 ```
+
 
 ---
 
